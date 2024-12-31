@@ -23,6 +23,11 @@ This repository contains a Jupyter Notebook that demonstrates A/B testing analys
 4. **Comparison of Strategies**:
    - Helps identify the strategy with the most consistent performance or highest rewards.
 
+5. **Bayesian Thompson Sampling Method**:
+   - The notebook optionally implements Bayesian Thompson Sampling, a probabilistic method for optimizing decisions.
+   - Thompson Sampling is used to balance exploration and exploitation by sampling from the posterior distribution of each strategy's performance.
+   - It is particularly effective in dynamic environments where uncertainty exists about the true performance of strategies.
+
 ## Requirements
 
 To run the notebook, you need the following Python libraries:
@@ -71,6 +76,8 @@ The notebook provides detailed statistics and visualizations to compare strategi
   - Overall growth of rewards over time.
   - Confidence intervals to account for variability.
 
+- **Bayesian Insights**:
+  - Insights from the Bayesian Thompson Sampling approach to evaluate and select the optimal strategy dynamically.
 
 
 ## License
